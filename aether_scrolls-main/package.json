@@ -1,0 +1,29 @@
+{
+  "name": "aether_scrolls",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^12.5.3",
+    "@astrojs/db": "^0.14.14",
+    "@astrojs/mdx": "^4.2.6",
+    "@astrojs/sitemap": "^3.4.0",
+    "@supabase/supabase-js": "^2.49.4",
+    "@tailwindcss/vite": "^4.1.4",
+    "astro": "^5.7.13",
+    "firebase": "^11.8.1",
+    "firebase-tools": "^14.4.0",
+    "tailwindcss": "^4.1.4"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.12",
+    "wrangler": "^4.16.1",
+    "astro": "^4.15.0"
+  }
+}
